@@ -1,0 +1,36 @@
+﻿{
+  "gitbook": ">=3.2.0",
+  "description": "ServiceMesh文章汇总",
+  "language": "zh-hans",
+  "author": "Service Mesh中文网",
+  "extension": null,
+  "generator": "site",
+  "links" : {
+    "sidebar" : {
+        "Service Mesh中文网": "http://servicemesh.cn"
+    }
+  },
+  "structure" : {
+    },
+  "plugins": [
+    "splitter",
+    "-search",
+    "-sharing",
+    "edit-link",
+    "page-toc-button",
+    "back-to-top-button",
+    "github-buttons@2.1.0",
+    "tags"
+  ],
+  "pluginsConfig": {
+    "edit-link": {
+        "base": "https://github.com/ServicemeshCN/servicemesh-content/edit/master",
+        "label": "在线编辑"
+    },
+    "github-buttons": {
+        "repo": "ServicemeshCN/servicemesh-content",
+        "types": ["star"],
+        "size": "small"
+    }
+  }
+}
