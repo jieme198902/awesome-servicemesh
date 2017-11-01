@@ -1,6 +1,6 @@
 ﻿{
   "gitbook": ">=3.2.0",
-  "description": "ServiceMesh文章汇总",
+  "description": "Awesome Service Mesh",
   "language": "zh-hans",
   "author": "Service Mesh中文网",
   "extension": null,
@@ -24,11 +24,11 @@
   ],
   "pluginsConfig": {
     "edit-link": {
-        "base": "https://github.com/ServicemeshCN/servicemesh-content/edit/master",
+        "base": "https://github.com/ServicemeshCN/awesome-servicemesh/edit/master",
         "label": "在线编辑"
     },
     "github-buttons": {
-        "repo": "ServicemeshCN/servicemesh-content",
+        "repo": "ServicemeshCN/awesome-servicemesh",
         "types": ["star"],
         "size": "small"
     }
